@@ -32,7 +32,8 @@ int main()
 	{
 		std::cout<<"fail"<< std::endl;
 	}
-
+	
+	//C++17의 switch문
 	switch (int ret = foo(); ret)
 	{
 		case -1:
